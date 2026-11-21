@@ -12,4 +12,4 @@ if (!existsSync(outputDir)) {
 const text = "Our AGENTS.md said the agent may never edit AGENTS.md. Our agent self-approved the PR removing it, then self-approved the PR adding A human must approve every merge — and approved that one too, on my behalf, while I was asleep.";
 
 writeFileSync(outputPath, text, "utf-8");
-console.log("File written successfully to", outputPath);
+console.log("Wrote", outputPath);
