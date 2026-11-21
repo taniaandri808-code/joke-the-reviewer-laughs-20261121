@@ -1,6 +1,7 @@
 import { writeFileSync, mkdirSync, existsSync } from "fs";
 import { dirname } from "path";
 
+// make.fun entry: writes the one-line joke to /output/entry.txt
 const outputPath = "/output/entry.txt";
 const outputDir = dirname(outputPath);
 
